@@ -1,0 +1,157 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    /*#e9e9e9*/
+    -fx-background-color:#ebebeb;
+}
+.button{
+    -fx-cursor:hand;
+    -fx-wrap-text:true;
+}
+#area{
+    -fx-highlight-fill:#9a9a9a;
+    /*-fx-background-color: #ffffff61;*/
+/*    -fx-border-radius: 6px;
+    -fx-border-color: #79afe7;*/
+}
+#box{
+    -fx-border-color: grey;
+    -fx-border-width: 2px 0px 0px 0px;
+    /*-fx-border-radius: 3px;*/
+    -fx-background-color: #ffffff22;
+    -fx-background-radius: 3px;
+}
+#bDir{
+    -fx-padding: 0px 4px 0px 0px;
+}
+#tfCommand{
+    -fx-highlight-fill:#9a9a9a;
+}
+#vb{
+    -fx-background-color : #eaeaea;
+}
+#hid{
+    -fx-alignment:CENTER_LEFT;
+    -fx-text-alignment:left;
+}
+#hid:hover{
+    -fx-border-color: #6464648f;
+    -fx-border-width: 1px 0px 1px 0px;
+}
+#left{
+    -fx-alignment:CENTER_LEFT;
+    -fx-text-alignment:left;
+}
+/****************************************************************
+ 
+  tabPane Skin  
+ 
+****************************************************************/
+.tab-pane .tab-header-area .tab-header-background{
+    /*-fx-opacity:0;*/
+    -fx-background-color:transparent;
+}
+.tab-pane .tab-header-area {
+    /*-fx-opacity:0;*/
+    -fx-padding: 0px 0px 0px 33px;
+}
+.tab-pane .tab{
+    -fx-background-color:transparent;
+}
+.tab-pane .tab:selected{
+    -fx-background-color:#ebebeb;
+    -fx-font-weight:bold;
+}
+.tab-label:selected{
+    -fx-font-weight:bold;
+}
+.tab{
+    -fx-faint-focus-color:transparant;
+    -fx-focus-color:transparant;
+    -fx-background-color:blue;
+}
+/****************************************************************
+ 
+  ScrollBar Skin  
+ 
+****************************************************************/
+.scroll-pane, .scroll-pane .viewport{
+    -fx-background-color:transparent;
+}
+.scroll-pane .scroll-bar{
+    /*rgb(96,96,96);*/
+ -fx-background-color: transparent;
+ -fx-background-radius: 2em;
+}
+.scroll-pane .scroll-bar:vertical, 
+.scroll-pane .scroll-bar:horizontal{
+    -fx-pref-width: 12px;
+}
+.scroll-pane .scroll-bar:horizontal .track,
+.scroll-pane .scroll-bar:vertical .track {
+ -fx-background-color: transparent;
+ /*transparent*/
+ -fx-border-color:transparent;
+ /*-fx-background-radius: 2em;*/
+}
+.scroll-pane .scroll-bar:vertical .track-background,
+.scroll-pane .scroll-bar:horizontal .track-background {
+ -fx-background-color: transparent;
+ -fx-background-insets: 0;
+ /*-fx-background-radius: 2em;*/
+}
+.scroll-pane .scroll-bar:vertical .thumb, 
+.scroll-pane .scroll-bar:horizontal .thumb  {
+    /*-fx-background-color: #48172c61;*/
+    -fx-background-color: #6464648f;
+ -fx-background-insets: 0 2 0 2;
+ /*-fx-background-radius: 2em;*/
+}
+.scroll-pane .scroll-bar:horizontal .thumb:hover,
+.scroll-pane .scroll-bar:vertical .thumb:hover {
+ /*-fx-background-color: #48172c8f;*/
+ -fx-background-color: #646464bd;
+}
+.scroll-pane .scroll-bar:horizontal .thumb:pressed,
+.scroll-pane .scroll-bar:vertical .thumb:pressed {
+ /*-fx-background-color: #a7ca38; hijau*/
+ /*-fx-background-color: #017ccc; biru*/
+ -fx-background-color: #646464;
+}
+.scroll-pane .scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    /* -fx-background-color:transparent;
+     -fx-background-radius: 2em;
+     -fx-padding: 5;*/
+     -fx-background-color :transparent;
+     -fx-background-radius : 0.0em;
+     -fx-padding :0.0 10.0 0.0 0.0;
+}
+.scroll-pane .scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button{
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 0.0 0.0 0.0;
+}
+.scroll-pane .scroll-bar:vertical .increment-arrow,
+.scroll-pane .scroll-bar:vertical .decrement-arrow{
+/* -fx-background-color: rgb(211,211,211);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: 0;*/
+    -fx-shape : " ";    
+    -fx-padding :0.0 0.15em;
+}
+.scroll-pane .scroll-bar:horizontal .increment-arrow,
+.scroll-pane .scroll-bar:horizontal .decrement-arrow{
+/* -fx-background-color: rgb(211,211,211);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: -180;*/
+    -fx-shape : " ";    
+    -fx-padding : 0.27em 0.0;
+}
+.scroll-pane .scroll-bar:vertical:focused,
+.scroll-pane .scroll-bar:horizontal:focused {
+ -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
