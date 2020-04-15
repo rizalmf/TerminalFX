@@ -1,7 +1,7 @@
 # TerminalFX
 **TerminalFX is terminal emulator create using JavaFX**
 
-![1](window.png)	
+![1](window.png)	![2](window2.png)
 
 *Feature*
 1. Multiple terminal
