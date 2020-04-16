@@ -13,7 +13,8 @@
 - Java Runtime Version 8
 - Windows / Linux / MacOS (Only test on Windows)
 
-this library is placed in folder "libray". I build using Ant. So you have to add library manually.
+this library is placed in folder "library". I build using Ant. So you have to add library manually.
 
 I am very welcome for any feedback to make this app better.
+
 *Anyway, dont forget to be happy :D*
